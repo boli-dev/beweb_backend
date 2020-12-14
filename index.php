@@ -28,4 +28,6 @@ if($r == "fetch_users") {
     UserController::delete();
 } elseif ($r == "login") {
     AuthController::login();
+} else {
+    echo "helllllllllllllllllo";
 }
